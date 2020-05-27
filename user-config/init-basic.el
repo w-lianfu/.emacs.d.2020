@@ -1,9 +1,10 @@
 ;; ------ init-basic ------
 
 ;; 设置默认屏幕宽高
-(add-to-list 'default-frame-alist '(height . 50))
+(add-to-list 'default-frame-alist '(height . 56))
 (add-to-list 'default-frame-alist '(width . 130))
-(add-to-list 'default-frame-alist '(left . 60))
+(add-to-list 'default-frame-alist '(left . 120))
+(add-to-list 'default-frame-alist '(top . 100))
 
 ;; 显示行号
 (global-linum-mode t)
@@ -65,14 +66,17 @@
 (add-hook 'after-change-major-mode-hook 'remove-scratch-buffer)
 
 ;; 更改显示字体大小
-;; (set-frame-font "Helvetica" t t)
-;; (set-frame-font "Monokai")
-;; (set-frame-font "Open Sans")
-(set-frame-font "Monaco")
+;; (set-frame-font "Open Sans-11" t t)
+;; (set-frame-font "Monaco-11" t t)
+(set-frame-font "Droid Sans Mono-11" t t)
 (set-face-attribute 'default nil
-		    :height 140
-		    :weight 'normal
-		    :width 'normal)
+	:weight 'normal
+	:width 'normal)
+;; 设置中文字体
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+  (set-fontset-font (frame-parameter nil 'font)
+    charset
+      (font-spec :family "PingFang SC" :size 16)))
 
 
 ;; ------ 设置编码 UTF-8 ------

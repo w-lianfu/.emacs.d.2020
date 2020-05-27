@@ -59,7 +59,7 @@
  '(cua-read-only-cursor-color "#8ac6f2")
  '(custom-safe-themes
    (quote
-    ("e1ecb0536abec692b5a5e845067d75273fe36f24d01210bf0aa5842f2a7e029f" "c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "76c5b2592c62f6b48923c00f97f74bcb7ddb741618283bdb2be35f3c0e1030e3" default)))
+    ("36ca8f60565af20ef4f30783aa16a26d96c02df7b4e54e9900a5138fb33808da" "f9aede508e587fe21bcfc0a85e1ec7d27312d9587e686a6f5afdbb0d220eab50" "e1ecb0536abec692b5a5e845067d75273fe36f24d01210bf0aa5842f2a7e029f" "c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "76c5b2592c62f6b48923c00f97f74bcb7ddb741618283bdb2be35f3c0e1030e3" default)))
  '(fci-rule-character-color "#452E2E")
  '(highlight-changes-colors (quote ("#e5786d" "#834c98")))
  '(highlight-symbol-colors
@@ -110,7 +110,7 @@
  '(objed-cursor-color "#CC6666")
  '(package-selected-packages
    (quote
-    (ace-jump-mode vlc emms ag iedit mew w3m peacock-theme doom-themes emmet-mode treemacs-icons-dired treemacs-projectile treemacs-evil autopair dashboard soft-stone-theme material-theme birds-of-paradise-plus-theme ubuntu-theme zenburn-theme solarized-theme spacemacs-theme counsel rjsx-mode js2-mode auto-complete helm-projectile tide popwin company web-mode yasnippet magit ivy treemacs neotree evil monokai-theme dracula-theme helm disable-mouse)))
+    (ample-theme helm-themes ace-jump-mode vlc emms ag iedit mew w3m peacock-theme doom-themes emmet-mode treemacs-icons-dired treemacs-projectile treemacs-evil autopair dashboard soft-stone-theme material-theme birds-of-paradise-plus-theme ubuntu-theme zenburn-theme solarized-theme spacemacs-theme counsel rjsx-mode js2-mode auto-complete helm-projectile tide popwin company web-mode yasnippet magit ivy treemacs neotree evil monokai-theme dracula-theme helm disable-mouse)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e")))
  '(pos-tip-background-color "#2a2a2a")
  '(pos-tip-foreground-color "#939393")

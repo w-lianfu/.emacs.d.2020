@@ -26,8 +26,8 @@
 ;; ------ 设置主题 ------
 ;; (load-theme 'dracula t)
 ;; (load-theme 'material t)
-;; (load-theme 'monokai t)
-(load-theme 'spacemacs-dark t)
+(load-theme 'monokai t)
+;; (load-theme 'spacemacs-dark t)
 ;; (load-theme 'spacemacs-light t)
 ;; (load-theme 'solarized t)
 ;; (load-theme 'zenburn t)
